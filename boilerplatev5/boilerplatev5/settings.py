@@ -119,6 +119,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
+EXERCICE_IMGS_ROOT = os.path.join(BASE_DIR, "exercice_imgs")
+EXERCICE_IMGS_URL = "/exercice_imgs/"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
